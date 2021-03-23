@@ -102,3 +102,13 @@ For evaluation, run the following:
 python evaluate_pose.py --eval_split odom_9 --load_weights_folder ./logs/model_name/models/weights_19 --data_path kitti_odom/
 python evaluate_pose.py --eval_split odom_10 --load_weights_folder ./logs/model_name/models/weights_19 --data_path kitti_odom/
 ```
+
+## Acknowledgments
+
+We base our project on the following repositories
+* [Monodepth2](https://github.com/nianticlabs/monodepth2)
+* [Depth and Motion Learning](https://github.com/google-research/google-research/tree/master/depth_and_motion_learning)
+* [YOLACT](https://github.com/dbolya/yolact/)
+* [EfficientNet](https://github.com/lukemelas/EfficientNet-PyTorch)
+
+This work was supported by Institute for Information & communications Technology Promotion (IITP) grant funded by the Korea government (MSIT) (No.2020-0-00440, Devel- opment of Artificial Intelligence Technology that Continu- ously Improves Itself as the Situation Changes in the Real World)
