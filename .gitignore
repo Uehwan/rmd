@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# editor
+.idea
+.vscode
+
+# os specifics
+.DS_Store
+
+# project specifics
+logs/
+weights/
+run_command.sh
+splits/eigen/gt_depths.npz
