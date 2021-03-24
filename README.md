@@ -1,5 +1,5 @@
 # Revisiting Self-Supervised Monocular Depth Estimation
-[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/)
+[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2103.12496)
 
 ## Introduction
 We propose to have a closer look at potential synergies between various depth and motion learning methods and CNN architectures.
@@ -21,6 +21,8 @@ Moreover, we obtain new state-of-the-art performance in the process of performin
 -------------------------------------------------------
 
 Below presents the qualitative and quantitative results of the proposed method compared to conventional methods.
+
+**You can download all the precomputed depth maps from [here](https://drive.google.com/file/d/1WYjNgYMU4HpNnjvCUGXUkdS-FzeLYEEJ/view?usp=sharing)**
 <p float="center">
   <img src="figures/qualitative_result.png" width="95%" />
 </p>
@@ -40,7 +42,7 @@ Ours | DeResNet-50 | <ins>0.108</ins> | **0.737** | **4.562** | <ins>0.187</ins>
 
 > **Revisiting Self-Supervised Monocular Depth Estimation**                       
 > [Ue-Hwan Kim](https://github.com/Uehwan), [Jong-Hwan Kim](http://rit.kaist.ac.kr/home/jhkim/Biography_en)                  
-> [arXiv preprint](https://arxiv.org/abs/)
+> [arXiv preprint](https://arxiv.org/abs/2103.12496)
 
 If you find this project helpful, please consider citing this project in your publications. The following is the BibTeX of our work.
 
@@ -48,7 +50,7 @@ If you find this project helpful, please consider citing this project in your pu
 @inproceedings{kim2020a,
   title={Revisiting Self-Supervised Monocular Depth Estimation},
   author={Kim Ue-Hwan, Kim Jong-Hwan},
-  journal = {arXiv preprint arXiv:},
+  journal = {arXiv preprint arXiv:2103.12496},
   year = {2021}
 }
 ```
@@ -111,4 +113,4 @@ We base our project on the following repositories
 * [YOLACT](https://github.com/dbolya/yolact/)
 * [EfficientNet](https://github.com/lukemelas/EfficientNet-PyTorch)
 
-This work was supported by Institute for Information & communications Technology Promotion (IITP) grant funded by the Korea government (MSIT) (No.2020-0-00440, Devel- opment of Artificial Intelligence Technology that Continu- ously Improves Itself as the Situation Changes in the Real World)
+This work was supported by Institute for Information & communications Technology Promotion (IITP) grant funded by the Korea government (MSIT) (No.2020-0-00440, Development of Artificial Intelligence Technology that Continuously Improves Itself as the Situation Changes in the Real World)
